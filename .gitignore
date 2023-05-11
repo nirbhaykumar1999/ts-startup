@@ -1,0 +1,39 @@
+# Compiled JS Files
+dist
+
+# Node Files
+node_modules
+
+# IDE Files
+.idea
+
+# Coverage
+coverage
+.nyc_output
+media
+
+# Log files
+log
+newrelic_agent.log
+
+# TypeScript
+ts-node-*
+
+# Env file
+.env
+
+# Minikube yaml files
+deployment/*.yaml
+
+# Redis binary file
+dump.rdb
+
+# Gitlab Runner files
+builds
+
+# Load testing files
+test/load/scripts/*.yml
+
+newrelic_agent.log
+newrelic.js
+.vscode
